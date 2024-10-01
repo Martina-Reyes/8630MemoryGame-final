@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">~Memory Game</string>
-    <string name="debug">~regular</string>
-    <string name="beginner">~Beginner</string>
-    <string name="easy">~Easy</string>
-    <string name="medium">~Medium</string>
-    <string name="hard">~Hard</string>
-    <string name="hardest">~Hardest</string>
-    <string name="master">~Master</string>
-    <string name="best_dash">~BEST: -</string>
-    <string name="Theme1">~Animals</string>
-    <string name="theme2">~Mosters</string>
-    <string name="theme3">~Emoji</string>
-    <string name="completed">~Level Completed</string>
-    <string name="time">~Time</string>
-    <string name="score">~Score</string>
-    <string name="best">~BEST : %02d:%02d</string>
-    <string name="soundoff">~Sound OFF</string>
-    <string name="soundon">~Sound ON</string>
-    <string name="settings">~Settings</string>
-    <string name="rate">~Rate this</string>
-    <string name="leaderboards">~Leaderboards will be available in the next game updates</string>
+    <string name="app_name">记忆小游戏</string>
+    <string name="debug">普通</string>
+    <string name="beginner">新手</string>
+    <string name="easy">简单</string>
+    <string name="medium">中等</string>
+    <string name="hard">较难</string>
+    <string name="hardest">困难</string>
+    <string name="master">大师</string>
+    <string name="best_dash">最高记录: -</string>
+    <string name="Theme1">喜羊羊</string>
+    <string name="theme2">灰太狼</string>
+    <string name="theme3">表情包</string>
+    <string name="completed">完成等级</string>
+    <string name="time">时间</string>
+    <string name="score">分数</string>
+    <string name="best">最快记录: %02d:%02d</string>
+    <string name="soundoff">关闭音乐</string>
+    <string name="soundon">开启音乐</string>
+    <string name="settings">设置</string>
+    <string name="rate">给游戏打分</string>
+    <string name="leaderboards">下次我们将会更新排行榜功能</string>
 </resources>
