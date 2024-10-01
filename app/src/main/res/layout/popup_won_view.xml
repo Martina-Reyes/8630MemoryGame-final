@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/a_blue_won_bg"
+
+        android:paddingStart="15dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_centerInParent="true"
+
+            android:layout_marginTop="35dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp">
+
+            <LinearLayout
+                android:id="@+id/startsLn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+
+
+                android:gravity="start"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/timeLn"
+                android:layout_width="match_parent"
+
+                android:layout_height="50dp"
+                android:layout_below="@+id/startsLn"
+                android:layout_centerHorizontal="true"
+                android:weightSum="6"
+                android:paddingStart="5dp"
+
+
+                >
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+
+                    android:fontFamily="@font/grobold"
+                    android:gravity="center"
+                    android:shadowColor="#2eaed9"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="@string/time"
+                    android:textColor="#FFFFFF"
+
+                    android:textSize="21sp"
+                    android:layout_gravity="center"
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                       android:layout_centerInParent="true"
+                        android:background="@drawable/a_won_small_rect"
+                        android:layout_marginStart="25dp"
+
+                        >
+                        <TextView
+                            android:id="@+id/time_bar_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/popup_button_time_height"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="@dimen/popup_button_time_margin_bottom"
+                            android:fontFamily="@font/grobold"
+                            android:gravity="center"
+                            android:shadowColor="#2eaed9"
+                            android:shadowDx="4"
+                            android:shadowDy="4"
+                            android:shadowRadius="4"
+                            android:text="00:60"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/popup_button_time_size" />
+                    </RelativeLayout>
+
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+
+                        android:src="@drawable/a_time_img"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/scoreLn"
+                android:layout_width="match_parent"
+
+                android:layout_height="50dp"
+                android:layout_below="@+id/timeLn"
+                android:layout_centerHorizontal="true"
+                android:weightSum="6"
+                android:paddingStart="5dp"
+
+                >
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+
+                    android:fontFamily="@font/grobold"
+                    android:gravity="center"
+                    android:shadowColor="#2eaed9"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="@string/score"
+                    android:textColor="#FFFFFF"
+
+                    android:textSize="21sp"
+                    android:layout_gravity="center"
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/a_won_small_rect"
+                        android:layout_marginStart="25dp"
+
+                        >
+                        <TextView
+                            android:id="@+id/score_bar_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/popup_button_time_height"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="@dimen/popup_button_time_margin_bottom"
+                            android:fontFamily="@font/grobold"
+                            android:gravity="center"
+                            android:shadowColor="#2eaed9"
+                            android:shadowDx="4"
+                            android:shadowDy="4"
+                            android:shadowRadius="4"
+                            android:text="240"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/popup_button_time_size"
+
+                            />
+                    </RelativeLayout>
+
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+
+                        android:src="@drawable/a_level_complete_star"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="@dimen/popup_button_time_width"
+                android:layout_height="@dimen/popup_button_time_height"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="@dimen/popup_button_time_margin_right"
+                android:layout_marginBottom="@dimen/popup_button_score_margin_bottom"
+                android:background="@drawable/a_won_small_rect"
+                android:fontFamily="@font/grobold"
+                android:gravity="center"
+                android:shadowColor="#2eaed9"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:text="240"
+                android:textColor="#FFFFFF"
+
+                android:textSize="@dimen/popup_button_time_size"
+                android:visibility="invisible" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/topRv"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/a_red_top_won_bg"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/grobold"
+            android:gravity="center"
+            android:shadowColor="#2eaed9"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="4"
+            android:text="@string/completed"
+            android:textColor="#FFFFFF"
+
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/button_back"
+        android:layout_width="@dimen/popup_button_back"
+        android:layout_height="@dimen/popup_button_back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/popup_button_back_left"
+        android:layout_marginBottom="@dimen/popup_button_back_bottom"
+        android:src="@drawable/button_back" />
+
+    <ImageView
+        android:id="@+id/button_next"
+        android:layout_width="@dimen/popup_button_back"
+        android:layout_height="@dimen/popup_button_back"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/popup_button_back_left"
+        android:layout_marginBottom="@dimen/popup_button_back_bottom"
+        android:src="@drawable/button_again" />
+</RelativeLayout>
