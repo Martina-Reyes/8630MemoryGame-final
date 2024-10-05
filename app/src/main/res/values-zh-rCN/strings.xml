@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">记忆小游戏</string>
+    <string name="debug">普通</string>
+    <string name="beginner">新手</string>
+    <string name="easy">简单</string>
+    <string name="medium">中等</string>
+    <string name="hard">较难</string>
+    <string name="hardest">困难</string>
+    <string name="master">大师</string>
+    <string name="best_dash">最高记录: -</string>
+    <string name="Theme1">动画</string>
+    <string name="theme2">卡通</string>
+    <string name="theme3">游戏</string>
+    <string name="completed">完成等级</string>
+    <string name="time">时间</string>
+    <string name="score">分数</string>
+    <string name="best">最快记录: %02d:%02d</string>
+    <string name="soundoff">关闭音乐</string>
+    <string name="soundon">开启音乐</string>
+    <string name="settings">设置</string>
+    <string name="rate">给游戏打分</string>
+    <string name="leaderboards">下次我们将会更新排行榜功能</string>
+</resources>
